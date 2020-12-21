@@ -85,19 +85,10 @@
 		<Unit filename="/home/kb/CLionProjects/chess_engine/King.cpp">
 			<Option target="chess_engine"/>
 		</Unit>
-		<Unit filename="/home/kb/CLionProjects/chess_engine/King.h">
-			<Option target="chess_engine"/>
-		</Unit>
 		<Unit filename="/home/kb/CLionProjects/chess_engine/Piece.cpp">
 			<Option target="chess_engine"/>
 		</Unit>
-		<Unit filename="/home/kb/CLionProjects/chess_engine/Piece.h">
-			<Option target="chess_engine"/>
-		</Unit>
 		<Unit filename="/home/kb/CLionProjects/chess_engine/Queen.cpp">
-			<Option target="chess_engine"/>
-		</Unit>
-		<Unit filename="/home/kb/CLionProjects/chess_engine/Queen.h">
 			<Option target="chess_engine"/>
 		</Unit>
 		<Unit filename="/home/kb/CLionProjects/chess_engine/main.cpp">

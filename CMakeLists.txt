@@ -3,4 +3,4 @@ project(chess_engine)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(chess_engine main.cpp Piece.cpp Piece.h King.cpp King.h Queen.cpp)
+add_executable(chess_engine main.cpp Piece.cpp King.cpp Queen.cpp)
