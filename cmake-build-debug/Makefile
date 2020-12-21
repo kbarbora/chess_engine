@@ -143,6 +143,60 @@ chess_engine/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess_engine.dir/build.make CMakeFiles/chess_engine.dir/build
 .PHONY : chess_engine/fast
 
+Bishop.o: Bishop.cpp.o
+
+.PHONY : Bishop.o
+
+# target to build an object file
+Bishop.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess_engine.dir/build.make CMakeFiles/chess_engine.dir/Bishop.cpp.o
+.PHONY : Bishop.cpp.o
+
+Bishop.i: Bishop.cpp.i
+
+.PHONY : Bishop.i
+
+# target to preprocess a source file
+Bishop.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess_engine.dir/build.make CMakeFiles/chess_engine.dir/Bishop.cpp.i
+.PHONY : Bishop.cpp.i
+
+Bishop.s: Bishop.cpp.s
+
+.PHONY : Bishop.s
+
+# target to generate assembly for a file
+Bishop.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess_engine.dir/build.make CMakeFiles/chess_engine.dir/Bishop.cpp.s
+.PHONY : Bishop.cpp.s
+
+Board.o: Board.cpp.o
+
+.PHONY : Board.o
+
+# target to build an object file
+Board.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess_engine.dir/build.make CMakeFiles/chess_engine.dir/Board.cpp.o
+.PHONY : Board.cpp.o
+
+Board.i: Board.cpp.i
+
+.PHONY : Board.i
+
+# target to preprocess a source file
+Board.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess_engine.dir/build.make CMakeFiles/chess_engine.dir/Board.cpp.i
+.PHONY : Board.cpp.i
+
+Board.s: Board.cpp.s
+
+.PHONY : Board.s
+
+# target to generate assembly for a file
+Board.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess_engine.dir/build.make CMakeFiles/chess_engine.dir/Board.cpp.s
+.PHONY : Board.cpp.s
+
 King.o: King.cpp.o
 
 .PHONY : King.o
@@ -169,6 +223,60 @@ King.s: King.cpp.s
 King.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess_engine.dir/build.make CMakeFiles/chess_engine.dir/King.cpp.s
 .PHONY : King.cpp.s
+
+Knight.o: Knight.cpp.o
+
+.PHONY : Knight.o
+
+# target to build an object file
+Knight.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess_engine.dir/build.make CMakeFiles/chess_engine.dir/Knight.cpp.o
+.PHONY : Knight.cpp.o
+
+Knight.i: Knight.cpp.i
+
+.PHONY : Knight.i
+
+# target to preprocess a source file
+Knight.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess_engine.dir/build.make CMakeFiles/chess_engine.dir/Knight.cpp.i
+.PHONY : Knight.cpp.i
+
+Knight.s: Knight.cpp.s
+
+.PHONY : Knight.s
+
+# target to generate assembly for a file
+Knight.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess_engine.dir/build.make CMakeFiles/chess_engine.dir/Knight.cpp.s
+.PHONY : Knight.cpp.s
+
+Pawn.o: Pawn.cpp.o
+
+.PHONY : Pawn.o
+
+# target to build an object file
+Pawn.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess_engine.dir/build.make CMakeFiles/chess_engine.dir/Pawn.cpp.o
+.PHONY : Pawn.cpp.o
+
+Pawn.i: Pawn.cpp.i
+
+.PHONY : Pawn.i
+
+# target to preprocess a source file
+Pawn.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess_engine.dir/build.make CMakeFiles/chess_engine.dir/Pawn.cpp.i
+.PHONY : Pawn.cpp.i
+
+Pawn.s: Pawn.cpp.s
+
+.PHONY : Pawn.s
+
+# target to generate assembly for a file
+Pawn.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess_engine.dir/build.make CMakeFiles/chess_engine.dir/Pawn.cpp.s
+.PHONY : Pawn.cpp.s
 
 Piece.o: Piece.cpp.o
 
@@ -224,6 +332,33 @@ Queen.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess_engine.dir/build.make CMakeFiles/chess_engine.dir/Queen.cpp.s
 .PHONY : Queen.cpp.s
 
+Rook.o: Rook.cpp.o
+
+.PHONY : Rook.o
+
+# target to build an object file
+Rook.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess_engine.dir/build.make CMakeFiles/chess_engine.dir/Rook.cpp.o
+.PHONY : Rook.cpp.o
+
+Rook.i: Rook.cpp.i
+
+.PHONY : Rook.i
+
+# target to preprocess a source file
+Rook.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess_engine.dir/build.make CMakeFiles/chess_engine.dir/Rook.cpp.i
+.PHONY : Rook.cpp.i
+
+Rook.s: Rook.cpp.s
+
+.PHONY : Rook.s
+
+# target to generate assembly for a file
+Rook.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess_engine.dir/build.make CMakeFiles/chess_engine.dir/Rook.cpp.s
+.PHONY : Rook.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -260,15 +395,30 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... chess_engine"
+	@echo "... Bishop.o"
+	@echo "... Bishop.i"
+	@echo "... Bishop.s"
+	@echo "... Board.o"
+	@echo "... Board.i"
+	@echo "... Board.s"
 	@echo "... King.o"
 	@echo "... King.i"
 	@echo "... King.s"
+	@echo "... Knight.o"
+	@echo "... Knight.i"
+	@echo "... Knight.s"
+	@echo "... Pawn.o"
+	@echo "... Pawn.i"
+	@echo "... Pawn.s"
 	@echo "... Piece.o"
 	@echo "... Piece.i"
 	@echo "... Piece.s"
 	@echo "... Queen.o"
 	@echo "... Queen.i"
 	@echo "... Queen.s"
+	@echo "... Rook.o"
+	@echo "... Rook.i"
+	@echo "... Rook.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

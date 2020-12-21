@@ -82,13 +82,28 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/kb/CLionProjects/chess_engine/Bishop.cpp">
+			<Option target="chess_engine"/>
+		</Unit>
+		<Unit filename="/home/kb/CLionProjects/chess_engine/Board.cpp">
+			<Option target="chess_engine"/>
+		</Unit>
 		<Unit filename="/home/kb/CLionProjects/chess_engine/King.cpp">
+			<Option target="chess_engine"/>
+		</Unit>
+		<Unit filename="/home/kb/CLionProjects/chess_engine/Knight.cpp">
+			<Option target="chess_engine"/>
+		</Unit>
+		<Unit filename="/home/kb/CLionProjects/chess_engine/Pawn.cpp">
 			<Option target="chess_engine"/>
 		</Unit>
 		<Unit filename="/home/kb/CLionProjects/chess_engine/Piece.cpp">
 			<Option target="chess_engine"/>
 		</Unit>
 		<Unit filename="/home/kb/CLionProjects/chess_engine/Queen.cpp">
+			<Option target="chess_engine"/>
+		</Unit>
+		<Unit filename="/home/kb/CLionProjects/chess_engine/Rook.cpp">
 			<Option target="chess_engine"/>
 		</Unit>
 		<Unit filename="/home/kb/CLionProjects/chess_engine/main.cpp">

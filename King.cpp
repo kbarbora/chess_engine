@@ -1,14 +1,16 @@
 //
 // Created by kb on 12/19/20.
 //
+#import <string>
 #import "Piece.cpp"
-class King : public Piece{
+using namespace std;
 
+class King : public Piece{
 private:
     bool checkmate;
     bool castle;
 public:
-    King(char color) : Piece('K', color, 'A', 'A', '1' ){
+    King(char color) : Piece('K', color, 'A', 'A', 1 ){
         myMoveable = false;
         myEat_them = false;
         myEat_me = false;
@@ -24,16 +26,23 @@ public:
         castle = false;
     }
 
-    bool isCheck() const {
-        return myEat_me;
+    string getPosition(){
+        string position(1, myColPosit+myRowPosit);
+        return position;
     }
 
-    bool isCheckmate() {
-        return checkmate;
-    }
+    bool isCheck() const {return myEat_me;}
 
-    void setCheckmate() {
-        checkmate = true;
+    bool isCheckmate() {return checkmate;}
+
+    void setCheckmate() {checkmate = true;}
+
+    bool isCastle() const {return castle;}
+
+    void setCastle(bool castle) {castle = castle;}
+
+    bool move(){
+
     }
 
 };

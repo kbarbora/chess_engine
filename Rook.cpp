@@ -5,23 +5,17 @@
 #import "Piece.cpp"
 using namespace std;
 
-class Queen : public Piece{
+class Rook : public Piece{
 private:
     bool promoted;
+    bool castle;
 public:
-    Queen(char color) : Piece('Q', color, 'A', 'A', 0){
+    Rook(char color) : Piece('R', color, 'C', 'C', 0){
         myMoveable = false;
         myEat_them = false;
         myEat_me = false;
         myPlaying = true;
         promoted = false;
-        if (color == 'W') {
-            myColPosit = 'D';
-            myRowPosit = '1';
-        } else if (color == 'B') {
-            myColPosit = 'D';
-            myRowPosit = '8';
-        }
     }
 
     string getPosition(){
@@ -29,11 +23,9 @@ public:
         return position;
     }
 
-    void setInitialPosition(char row, char col) {
-        if (promoted) {
+    void setInitialPosition(char row, char col){
         myColPosit = col;
         myRowPosit = row;
-        }
     }
 
     bool isPromoted(){return promoted;}
@@ -47,5 +39,6 @@ public:
     bool move(){
 
     }
+
 };
 

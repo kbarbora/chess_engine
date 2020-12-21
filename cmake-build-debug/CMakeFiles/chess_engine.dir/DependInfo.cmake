@@ -4,9 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/kb/CLionProjects/chess_engine/Bishop.cpp" "/home/kb/CLionProjects/chess_engine/cmake-build-debug/CMakeFiles/chess_engine.dir/Bishop.cpp.o"
+  "/home/kb/CLionProjects/chess_engine/Board.cpp" "/home/kb/CLionProjects/chess_engine/cmake-build-debug/CMakeFiles/chess_engine.dir/Board.cpp.o"
   "/home/kb/CLionProjects/chess_engine/King.cpp" "/home/kb/CLionProjects/chess_engine/cmake-build-debug/CMakeFiles/chess_engine.dir/King.cpp.o"
+  "/home/kb/CLionProjects/chess_engine/Knight.cpp" "/home/kb/CLionProjects/chess_engine/cmake-build-debug/CMakeFiles/chess_engine.dir/Knight.cpp.o"
+  "/home/kb/CLionProjects/chess_engine/Pawn.cpp" "/home/kb/CLionProjects/chess_engine/cmake-build-debug/CMakeFiles/chess_engine.dir/Pawn.cpp.o"
   "/home/kb/CLionProjects/chess_engine/Piece.cpp" "/home/kb/CLionProjects/chess_engine/cmake-build-debug/CMakeFiles/chess_engine.dir/Piece.cpp.o"
   "/home/kb/CLionProjects/chess_engine/Queen.cpp" "/home/kb/CLionProjects/chess_engine/cmake-build-debug/CMakeFiles/chess_engine.dir/Queen.cpp.o"
+  "/home/kb/CLionProjects/chess_engine/Rook.cpp" "/home/kb/CLionProjects/chess_engine/cmake-build-debug/CMakeFiles/chess_engine.dir/Rook.cpp.o"
   "/home/kb/CLionProjects/chess_engine/main.cpp" "/home/kb/CLionProjects/chess_engine/cmake-build-debug/CMakeFiles/chess_engine.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

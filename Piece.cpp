@@ -16,7 +16,7 @@ private:
     char myColor;
     char myMove_pattern;
     char myEat_pattern;
-    char myMax_squares;
+    unsigned int myMax_squares;
 //    char *myEaten;
 public:
     Piece(char type, char color, char move_pattern, char eat_pattern, char max_squares){
